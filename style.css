@@ -13,6 +13,10 @@
     --font2: 'Times new roman', Times, serif;
 }
 
+body {
+
+}
+
 header {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
     text-align: center;
@@ -23,14 +27,18 @@ header {
 }
 
 nav {
-    background-color: #054F8D;
+    background-color: #2e2e2e;
     text-align: end;
+    padding: 10px;
+    
 }
 
 nav a {
+    vertical-align: middle;
     color: white;
     text-decoration: none;
     margin-left: 20px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.452);
 }
 
 nav a:hover {
