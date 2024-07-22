@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media (max-width: 9999px){
+    footer img {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 80px;
+    }
+}

@@ -3,19 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Só Portões - Portões Automáticos</title>
-    <link rel="shortcut icon" href="images/logo-preta.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
+    <title>Mario Bros Projeto</title>
+    <link rel="shortcut icon" href="img/logo-header.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
+
+
     <header>
-        <img src="images/logo-preta.png" alt="Logo Só portões preta">
+
+        <a href="index.html">
+        <img src="img/logo-header.png" alt="Cabeça Mario">
+        <a>
+
+        <nav class="linha">
+            <a>Home</a>
+            <a onclick="formVem()">Fale Conosco</a>
+            <a>Nossos Serviços</a>
+        </nav>
+
+        <nav class="bloco" onclick="menuAbrindo()">
+            <img src="img/menu.png" alt="Menu">
+        </nav>
+
+        <nav class="open">
+            <a>🏠 Home</a>
+            <a onclick="formVem()">📞 Fale Conosco</a>
+            <a>🛠️ Nossos Serviços</a>
+        </nav>
+
     </header>
+
+
     <main>
-        <img src="images/pessoa.jpg" alt="Pessoa Demonstrativa">
+
+
+        <section class="conteudo-main">
+            <img src="img/logo.png" alt="Logo Mario Bros">
+            <p>Encanadores Mario & Luigi - Resolvendo seus problemas com estilo!</p>
+            <p>Você já se encontrou em uma situação de emergencia com encanamento? Vazamento de torneiras ou problemas com a máquina de lavar? Eles serão sua solução, chame Mario e Luigi!</p>
+            <button onclick="formVem()">Entre em contato</button>
+        </section>
+
+
+        <section class="imagem-main">
+            <img src="img/mario.png" alt="Irmãos Mario e Luigi">
+        </section>
+
+
     </main>
+
+
     <footer>
 
+        <a href="https://api.whatsapp.com/send?phone=5547999354350&text=Quero%20um%20site%20profissional%20como%20o%20do%20Mario%20para%20minha%20empresa!%20Quero%20fazer%20or%C3%A7amento!" target="_blank">
+            <img src="img/whatsapp.png" alt="Whatsapp">
+        </a>
+
     </footer>
+    
+    <div class="focus-mask" onclick="menuFechando()"></div>
+    <div class="form-mask" onclick="formVai()"></div>
+
+    <div class="video-mask"></div>
+
+    <div class="video">
+        <video src="img/video.mp4" autoplay muted loop></video>
+    </div>
+
+    <form 
+        class="form-fale-conosco"
+        action="https://formcarry.com/s/sRUe3lmSMuY"
+        method="POST"
+        enctype="multipart/form-data">
+
+            <p>Fale Conosco</p>
+            <input type="text"  name="nome"      placeholder="Seu Nome">
+            <input type="tell"  name="telefone"  placeholder="Telefone">
+            <textarea           name="duvida"    placeholder="Digite seu problema aqui"></textarea>
+            
+            <button type="submit">Pedir Orçamento</button>
+
+    </form>
+
 </body>
+<script src="scripts.js"></script>
 </html>

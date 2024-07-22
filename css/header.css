@@ -1,0 +1,115 @@
+@charset "UTF";
+
+@media (max-width: 9999px){
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+header img {
+    width: 90px;
+}
+
+nav.bloco, nav.open {
+    display: none;
+}
+
+header nav.linha {
+    display: flex;
+    gap: 30px;
+    font: normal bold 20px Arial, Helvetica, 'sans-serif';
+    color: white;
+}
+
+header nav.linha a:hover {
+    color: red;
+    font-size: 26px;
+    transition: font-size 0.5s, color 0.3s;
+    cursor: pointer;
+}
+}
+
+@media (max-width: 1400px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+    
+    header img {
+        width: 90px;
+    }
+    
+
+    header nav.linha {
+        display: flex;
+        gap: 50px;
+        font: normal bold 20px Arial, Helvetica, 'sans-serif';
+        color: white;
+    }
+    
+    header nav.linha a:hover {
+        color: red;
+        font-size: 26px;
+        transition: font-size 0.5s, color 0.3s;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    header {
+        width: 100vw;
+    }
+
+    nav.linha a {
+            display: none;
+    }
+
+    header img, header nav.bloco, header nav.open {
+        display: inline-block;
+        position: fixed;
+        top: 20px;
+    }
+
+    header nav.bloco {
+        right: 50px;
+        cursor: pointer;
+        width: 60px;
+    }
+    
+    nav.open {
+        position: fixed;
+        z-index: 2;
+        top: -50%; right: -50%;
+        /*top: 20px; right: 20px;*/
+        background-color: white;
+        border-radius: 15px;
+        width: 40vw;
+        padding-bottom: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        transition-duration: 0.5s;
+    }
+    nav.open a {
+        display: block;
+        z-index: 2;
+        font: normal bold 17px Arial, Helvetica, 'sans-serif';
+        color: black;
+        margin: 40px 0px 10px 20px ;
+        padding: 5px;
+        border-radius: 5px 0px 0px 5px;
+        cursor: pointer;
+    }
+
+    nav.open a:hover {
+        background-color: rgba(255, 0, 0, 0.377);
+        padding: 5px;
+    }
+}
