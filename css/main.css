@@ -110,8 +110,12 @@ main {
         margin-top: 150px;
     }
 
+    .conteudo-main p {
+        font-size: 16px;
+    }
+
     .conteudo-main img {
-        width: 80vw;
+        width: 70vw;
         margin: auto;
         margin-bottom: 30px;
     }
