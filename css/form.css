@@ -21,6 +21,7 @@ form p {
 }
 
 form input {
+    font-family: sans-serif;
     margin-bottom: 10px;
     padding: 10px;
     width: 260px;
@@ -46,7 +47,7 @@ form button {
     height: 50px;
     margin: auto;
     margin-top: 20px;
-    background-color: rgb(197, 0, 0);
+    background-color: #06387A;
     color: white;
     font: normal bold 18px Arial, Helvetica, 'sans-serif';
     border-radius: 5px;
@@ -55,7 +56,7 @@ form button {
 }
     
 form button:hover {
-    background-color: #8C1111;
+    background-color: #052550;
     box-shadow: inset 2px 2px 5px 0px rgba(0, 0, 0, 0.514);
     cursor: pointer;
 }

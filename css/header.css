@@ -10,7 +10,8 @@ header {
 }
 
 header img {
-    width: 90px;
+    border-radius: 10px;
+    width: 150px;
 }
 
 nav.bloco, nav.open {
@@ -25,7 +26,7 @@ header nav.linha {
 }
 
 header nav.linha a:hover {
-    color: red;
+    color: #0858c0;
     font-size: 26px;
     transition: font-size 0.5s, color 0.3s;
     cursor: pointer;
@@ -42,7 +43,7 @@ header nav.linha a:hover {
     }
     
     header img {
-        width: 90px;
+        width: 120px;
     }
     
 
@@ -54,7 +55,7 @@ header nav.linha a:hover {
     }
     
     header nav.linha a:hover {
-        color: red;
+        color: #06387A;
         font-size: 26px;
         transition: font-size 0.5s, color 0.3s;
         cursor: pointer;
@@ -72,16 +73,29 @@ header nav.linha a:hover {
             display: none;
     }
 
-    header img, header nav.bloco, header nav.open {
+    header nav.bloco, header nav.open {
         display: inline-block;
         position: fixed;
         top: 20px;
     }
 
+    header img {
+        top: 30px;
+        display: inline-block;
+        position: fixed;
+    }
+
     header nav.bloco {
-        right: 50px;
+        right: 80px;
         cursor: pointer;
-        width: 60px;
+    }
+
+    header nav.bloco img {
+        background-color: rgba(0, 0, 0, 0.466);
+        position: relative;
+        top: -10px;
+        right: -60px;
+        width: 100px;
     }
     
     nav.open {
@@ -109,7 +123,7 @@ header nav.linha a:hover {
     }
 
     nav.open a:hover {
-        background-color: rgba(255, 0, 0, 0.377);
+        background-color: #06387a9f;
         padding: 5px;
     }
 }

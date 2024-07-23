@@ -15,7 +15,6 @@ main {
 
 .conteudo-main img {
     display: block;
-    margin-left: -70px;
     margin-bottom: 30px;
     width: 25vw;
 }
@@ -34,8 +33,9 @@ main {
     display: block;
     width: 200px;
     height: 50px;
+    margin-top: 50px;
     margin-left: 40px;
-    background-color: rgb(197, 0, 0);
+    background-color: #06387A;
     color: white;
     font: normal bold 18px Arial, Helvetica, 'sans-serif';
     border-radius: 5px;
@@ -44,13 +44,13 @@ main {
 }
 
 .conteudo-main button:hover {
-    background-color: #8C1111;
+    background-color: #052550;
     box-shadow: inset 2px 2px 5px 0px rgba(0, 0, 0, 0.514);
     cursor: pointer;
 }
 
 .imagem-main {
-    width: 30%;
+    width: 23%;
 }
 
 .imagem-main img {
