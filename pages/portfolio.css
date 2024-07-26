@@ -41,6 +41,12 @@ html {
         background-color: rgb(210, 250, 217);
     }
 
+    .rodape {
+        background-color: darkgray;
+        height: 300px;
+        scroll-snap-align: end;
+    }
+
 a {
     display: block;
     text-decoration: none;
