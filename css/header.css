@@ -74,19 +74,19 @@ header a {
     }
 
     nav.linha a {
-            display: none;
+        display: none;
     }
 
     header nav.bloco, header nav.open {
         display: inline-block;
-        position: fixed;
-        top: 20px;
+        position: absolute;
+        top: 30px;
     }
 
     header img {
         top: 30px;
         display: inline-block;
-        position: fixed;
+        position: absolute;
     }
 
     header nav.bloco {
