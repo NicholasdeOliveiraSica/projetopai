@@ -31,6 +31,10 @@ header nav.linha a:hover {
     transition: font-size 0.5s, color 0.3s;
     cursor: pointer;
 }
+
+header a {
+    color: white;
+}
 }
 
 @media (max-width: 1400px) {

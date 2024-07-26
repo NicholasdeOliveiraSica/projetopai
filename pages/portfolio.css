@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.section {
+    scroll-snap-align: start;
+    height: 95vh;
+}
+
+    .section-1 {
+        background-color: lightgoldenrodyellow;
+    }
+    .section-2 {
+        background-color: rgb(210, 250, 210);
+    }
+    .section-3 {
+        background-color: rgb(222, 210, 250);
+    }
+    .section-4 {
+        background-color: rgb(250, 210, 210);
+    }
+    .section-5 {
+        background-color: rgb(250, 231, 210);
+    }
+    .section-6 {
+        background-color: rgb(250, 210, 241);
+    }
+    .section-7 {
+        background-color: rgb(210, 250, 247);
+    }
+    .section-8 {
+        background-color: rgb(210, 250, 217);
+    }
+
+a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: normal bold 20px arial;
+    background-color: red;
+    color: white;
+}
