@@ -127,4 +127,8 @@ main {
     .conteudo-main button {
         margin-top: 50px;
     }
+    
+    .imagem-main {
+        width: 326px;
+    }
 }
