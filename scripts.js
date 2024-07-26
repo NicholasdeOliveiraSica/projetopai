@@ -8,6 +8,7 @@ const form = document.querySelector("form.form-fale-conosco")
 function menuAbrindo(){
     menuOpen.style.top = "20px"
     menuOpen.style.right = "20px"
+    menuOpen.style.visibility = "visible"
     menuClose.style.visibility = "hidden"
     focusMask.style.display = "block"
 }
