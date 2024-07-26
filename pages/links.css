@@ -6,12 +6,22 @@
     box-sizing: border-box;
 }
 
+html {
+    min-width: 100vw;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
 body {
     font: normal normal 18px Arial, Helvetica, 'sans-serif';
     background: rgb(2,0,36);
     background: linear-gradient(129deg, rgba(2,0,36,1) 18%, rgba(9,9,121,1) 38%, rgba(4,128,199,1) 65%, rgba(0,212,255,1) 100%);
     display: flex;
-    height: 100vh; width: 100vw;
+    height: 100vh; min-width: 100vw;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -94,4 +104,15 @@ div:hover {
     border: 2px solid rgba(255, 255, 255, 0.712);
     padding: 3px;
     transition: 0.3s;
+}
+
+@media (max-width: 800px) {
+    main {
+        width: 99vw;
+    }
+
+    body > img {
+        width: 60vw;
+        border-radius: 30px;
+    }
 }
