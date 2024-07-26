@@ -4,6 +4,7 @@ const menuClose = document.querySelector("nav.bloco")
 const focusMask = document.querySelector("div.focus-mask")
 const formMask = document.querySelector("div.form-mask")
 const form = document.querySelector("form.form-fale-conosco")
+const zap = document.querySelector(".zapzap")
 
 function menuAbrindo(){
     menuOpen.style.top = "20px"
@@ -23,9 +24,11 @@ function menuFechando(){
 function formVem(){
     form.style.left = "50%"
     formMask.style.display = "block"
+    zap.style.visibility = "hidden"
 }
 
 function formVai(){
+    zap.style.visibility = "visible"
     form.style.left = "-150px"
     formMask.style.display = "none"
 }
