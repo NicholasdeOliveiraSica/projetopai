@@ -17,12 +17,10 @@ function fechaForm() {
 
 function menuAbre() {
     mask.style.display = "block"
-    botaoMenu.style.display = "none"
     menu.style.right = "0"
 }
 
 function menuFecha() {
     mask.style.display = "none"
-    botaoMenu.style.display = "block"
     menu.style.right = "-250px"
 }
